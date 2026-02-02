@@ -9,7 +9,7 @@ tfd = tfp.distributions
 
 class KalmanFilter:
     """
-    Implements a discrete-time Kalman Filter using TensorFlow.
+    Discrete-time Kalman Filter.
     
     The filter models a system with the following dynamics:
     x_{t} = A * x_{t-1} + w_t,  w_t ~ N(0, B*B^T)
@@ -200,4 +200,5 @@ def main():
     print(f"Max Condition Number (S): {np.max(cond_S.numpy()):.2f}")
 
 if __name__ == "__main__":
+
     main()

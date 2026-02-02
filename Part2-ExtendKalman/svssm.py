@@ -7,10 +7,7 @@ tfd = tfp.distributions
 
 class StochasticVolatilityModel:
     """
-    Implements the Stochastic Volatility Model described in Example 4.
-    
-    This class serves as the 'Ground Truth' system generator. It defines the 
-    state-space equations used to simulate synthetic data for testing the filters.
+    Stochastic Volatility Model.
 
     State Equation:
         X_n = alpha * X_{n-1} + sigma * V_n,  where V_n ~ N(0, 1)

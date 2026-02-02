@@ -7,7 +7,7 @@ tfd = tfp.distributions
 
 class LinearGaussianSSM:
     """
-    Implements the Linear Gaussian Model described in Example 2.
+    Linear Gaussian Model.
     
     State Space: X in R^{n_x}
     Observation Space: Y in R^{n_y}

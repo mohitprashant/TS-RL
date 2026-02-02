@@ -6,7 +6,7 @@ tf.keras.backend.set_floatx('float64')
 
 class StochasticParticleFlow:
     """
-    Implementation of Stiffness Mitigation in Stochastic Particle Flow Filters.
+    Stiffness Mitigation in Stochastic Particle Flow Filters.
 
     Attributes:
         target_true (tf.Tensor): The ground truth target location [x, y].

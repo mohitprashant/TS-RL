@@ -8,7 +8,7 @@ tfd = tfp.distributions
 
 class MultivariateStochasticVolatilityModel:
     """
-    Implements a Multivariate Stochastic Volatility (MSV) Model.
+    Multivariate Stochastic Volatility (MSV) Model.
 
     System Dynamics:
         x_{t+1} = diag(phi) * x_t + eta_t

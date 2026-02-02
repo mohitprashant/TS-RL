@@ -14,7 +14,7 @@ class UnscentedKalmanFilter:
     Unscented Kalman Filter (UKF) for the Stochastic Volatility Model.
     
     Uses the Unscented Transform to propagate mean and covariance through non-linearities
-    without explicit Jacobian calculation. Operates in the log-squared observation domain.
+    without explicit Jacobian calculation.
 
     Attributes:
         Wm (tf.Tensor): Weights for mean calculation.
